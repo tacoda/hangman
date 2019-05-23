@@ -4,7 +4,7 @@ defmodule Hangman.Game do
     turns_left: 7,
     game_state: :initializing,
     letters:    [],
-    used:       MapSet.new(),
+    used:       MapSet.new()
   )
 
   def new_game(word) do
